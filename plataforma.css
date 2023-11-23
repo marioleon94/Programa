@@ -1,0 +1,82 @@
+/* Estilos generales TICHELP.NET*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #062c6a;
+    color: rgb(32, 208, 217);
+    text-align: center;
+    padding: 5px 0;
+}
+
+nav {
+    background-color: #062c6a;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos para la sección de listado de casos TICHELP.NET*/
+.cases-list {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #062c6a;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+}
+
+table th {
+    background-color: #062c6a;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+/* Estilos para la descripción del caso TICHELP.NET*/
+.case-description {
+    margin-bottom: 20px;
+}
+
+#case-description-text {
+    font-style: italic;
+    font-weight: bold;
+    color: #000000;
+    margin: 50px 0px 200px 0px;
+}
+
+/* Estilos para el footer TICHELP.NET*/
+footer {
+    background-color: #062c6a;
+    color: rgb(32, 208, 217);
+    text-align: center;
+    padding: 10px 0;
+}

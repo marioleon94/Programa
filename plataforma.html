@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TICHELP.NET - Listado de Casos</title>
+    <link rel="stylesheet" href="plataforma.css">
+    <link rel="shortcut icon" href="sitio-web.png">
+</head>
+<body background="https://static.vecteezy.com/system/resources/previews/002/282/910/non_2x/elegant-white-background-free-vector.jpg">
+    <header>        
+            <h1>TICHELP.NET</h1>       
+    </header>
+    <nav>
+        <ul>
+            <a href="plataforma.html" id="inicio">Inicio</a>
+            <li><a href="#" id="nuevos">Nuevos</a></li>
+            <li><a href="#" id="programados">Programados</a></li>
+            <li><a href="#" id="esperando">Esperando respuesta</a></li>
+            <li><a href="#" id="cerrados">Cerrados</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="cases-list">
+            <h2>Listado de Casos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID caso</th>
+                        <th>Asunto</th>
+                        <th>Nombre del Remitente</th>
+                        <th>Fecha y Hora de Llegada</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Filas de casos de prueba TICHELP.NET -->                    
+                    
+                    <tr class="case-row nuevos" data-description="Cordial saludo tengo problemas con mi monitor, no enciende y ya probé con otro cable y nada, por favor su ayuda, gracias, me pueden contactar en la línea 315 888 99 36">
+                        <td>001</td>
+                        <td>monitor no funciona</td>
+                        <td>Juan Pérez</td>
+                        <td>2023-11-02 10:30:00</td>
+                        <td>Nuevos</td>                        
+                    </tr>        
+                    <tr class="case-row nuevos" data-description="Cordial saludo tengo problemas con mi cuenta teams, no enciende y ya probé con otro cable y nada, por favor su ayuda, gracias, me pueden contactar en la línea 315 888 99 36">
+                        <td>002</td>
+                        <td>no puedo acceder a mi cuenta teams</td>
+                        <td>Amelia Losada</td>
+                        <td>2023-11-02 10:30:00</td>
+                        <td>Nuevos</td>                        
+                    </tr>           
+                    <tr class="case-row programados" data-description="Cordial saludo red no funciona, por favor su ayuda, gracias, me pueden contactar en la línea 316 888 99 36">
+                        <td>003</td>
+                        <td>red no funciona</td>
+                        <td>Maria Rodríguez</td>
+                        <td>2023-11-01 14:45:00</td>   
+                        <td>Programados</td>                      
+                    </tr>
+                    <tr class="case-row programados" data-description="Cordial saludo tengo problemas con mi PC CORPORATIVO, por favor su ayuda, gracias, me pueden contactar en la línea 316 888 99 36">
+                        <td>004</td>
+                        <td>Problema de PC</td>
+                        <td>Hernando Guerra</td>
+                        <td>2023-11-01 14:45:00</td>   
+                        <td>Programados</td>                      
+                    </tr>
+                    <tr class="case-row esperando" data-description="Cordial saludo no recuerdo la contraseña de mi correo, no enciende y ya probé con otro cable y nada, por favor su ayuda, gracias, me pueden contactar en la línea 318 888 99 36">
+                        <td>005</td>
+                        <td>Olvido contraseña</td>
+                        <td>Federico Gonzalez</td>
+                        <td>2023-11-02 10:30:00</td>   
+                        <td>Esperando respuesta</td>                       
+                    </tr>
+                    <tr class="case-row esperando" data-description="Cordial saludo creo que se dañó mi teléfono, por favor su ayuda, gracias, me pueden contactar en la línea 317 888 99 36">
+                        <td>006</td>
+                        <td>teléfono dañado</td>
+                        <td>Ernesto Guevara</td>
+                        <td>2023-11-01 14:45:00</td>     
+                        <td>Esperando respuesta</td>                      
+                    </tr>
+                    <tr class="case-row cerrados" data-description="Cordial saludo tengo problemas con mi cel, por favor su ayuda, gracias, me pueden contactar en la línea 316 888 99 36">
+                        <td>007</td>
+                        <td>mi cel no prende</td>
+                        <td>Alejandra Peña</td>
+                        <td>2023-11-01 14:45:00</td>   
+                        <td>Cerrados</td>                      
+                    </tr>
+                    <tr class="case-row cerrados" data-description="Cordial saludo tengo problemas con la IMPRESORA, por favor su ayuda, gracias, me pueden contactar en la línea 316 888 99 36">
+                        <td>008</td>
+                        <td>impresora sin tóner</td>
+                        <td>Maria Garzon</td>
+                        <td>2023-11-01 14:45:00</td>   
+                        <td>Cerrados</td>                      
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        <section class="case-description">
+            <h2>Descripción del Caso</h2>
+            <p id="case-description-text">Selecciona un caso para ver su descripción.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 TICHELP.NET</p>
+    </footer>
+    <script src="plataforma.js"></script>
+</body>
+</html>
